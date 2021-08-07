@@ -58,7 +58,7 @@ about_content: | # this will include new lines to allow paragraphs
   개인보단 팀 단위로 생각하고 학습한 내용을 공유하며 <mark>함께 성장하는 분위기</mark>를 만드려고 노력하고 있습니다.
 
   모든 사람에게서는 배울 점이 있다고 생각합니다.
-  연차, 나이, 직군, 파트 모두 떠나서 배울 점이 있다고 생각하고 항상 부족하다고 생각합니다. <mark>늘 겸손하자</mark>가 저의 가치관입니다.
+  연차, 나이, 직군, 파트 모두 떠나서 배울 점이 있다고 생각합니다. 그리고 전 항상 부족하다고 생각합니다. <mark>늘 겸손하자</mark>가 저의 가치관입니다.
 
 content:
   - title: Skill # Title for the section
@@ -79,14 +79,14 @@ content:
             - Junit5, Mockito, Jacoco
             - Gradle, Maven
             - IntelliJ, Eclipse
-#      - layout: left
-#          title: DevOps
-#          description: | # this will include new lines to allow paragraphs
-#            - MySQL, MariaDB, MongoDB, Redis
-#            - Jenkins
-#            - [Kafka](https://jessyt.tistory.com/category/Study/message-queue)
-#            - [Promethous, Grafana](https://jessyt.tistory.com/category/Develop/devops)
-#            - Docker
+      - layout: left
+          title: DevOps
+          description: | # this will include new lines to allow paragraphs
+            - MySQL, MariaDB, MongoDB, Redis
+            - Jenkins
+            - [Kafka](https://jessyt.tistory.com/category/Study/message-queue)
+            - [Promethous, Grafana](https://jessyt.tistory.com/category/Develop/devops)
+            - Docker
 #      - layout: left
 #          title: Etc
 #          description: | # this will include new lines to allow paragraphs
