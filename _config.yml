@@ -79,78 +79,78 @@ content:
             - Junit5, Mockito, Jacoco
             - Gradle, Maven
             - IntelliJ, Eclipse
-      - layout: left
-          title: DevOps
-          description: | # this will include new lines to allow paragraphs
-            - MySQL, MariaDB, MongoDB, Redis
-            - Jenkins
-            - [Kafka](https://jessyt.tistory.com/category/Study/message-queue)
-            - [Promethous, Grafana](https://jessyt.tistory.com/category/Develop/devops)
-            - Docker
-      - layout: left
-          title: Etc
-          description: | # this will include new lines to allow paragraphs
-            - Confluence, Jira, Redmine, Yona
-            - Slack
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: FastView
-        caption: 2021.03 - 재직중
-        sub_title: 코틀린 백엔드 개발자
-        quote: >
-          공급사 이커머스 구성 및 운영 서비스
-        description: | # this will include new lines to allow paragraphs
-          - 관리자, 서비스 API 개발
-          - 서비스 MSA 기반 아키텍처 설계
-          - Batch && Kafka 아키텍처, CI/CD, 개발
-          - Test Code 작성 ( && Jacoco )
-          - 2021년 2분기 MVP 수상
-
-      - layout: left
-          title: Newploy
-          link: https://www.newploy.net/
-          link_text: https://www.newploy.net/
-          caption: 2020.07 - 2021.03
-          sub_title: 개발자
-          quote: >
-            급여 업무 자동화 플랫폼
-          description: | # this will include new lines to allow paragraphs
-            - 플랫폼 서비스 자바 기반 프론트/백엔드 개발
-            - 플랫폼 DB 설계 참여
-            - Batch 아키텍처, CI/CD, 개발
-            - 입금, 출금 상태 모니터링 개발 ( Customizing )
-            - 테스트 코드 작성
-
-      - layout: left
-          title: Ibizsoftware
-          caption: 2017.04 - 2020.07
-          sub_title: 개발자
-          quote: >
-            BlockChain Platform && SI
-          description: | # this will include new lines to allow paragraphs
-            - BlockChain Platform
-              - web3j libaray 사용하여 DAPP 개발 ( Ethereum )
-              - hyperledger-fabric DAPP 개발
-              - hyperledger-fabric에 softhsm 분석
-              - 서버 구성을 자동화한 MakeFile 개발
-            - SI
-              - 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발
-
-  - title: ETC
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      꾸준하게 블로그 작성을 하여 기술 향상 및 기술 공유에 힘쓰고 있습니다.
-      - [에디블로그](https://jessyt.tistory.com/)
-
-      기존의 것을 그대로 사용하지 않고 분석하고 개선하려 힘쓰고 있습니다.
-      - [Querydsl 복잡한 쿼리 Paging 처리 Support Class](https://jessyt.tistory.com/129)
-      - [Spring Batch QuerydslPagingItemReader 개선](https://jessyt.tistory.com/128)
-      - [JPA DirtyChecking Kotlin 스럽게 사용하기](https://jessyt.tistory.com/106)
-      - [Querydsl Join Query Sort 구현해보기](https://jessyt.tistory.com/90)
-      - 등등...
+#      - layout: left
+#          title: DevOps
+#          description: | # this will include new lines to allow paragraphs
+#            - MySQL, MariaDB, MongoDB, Redis
+#            - Jenkins
+#            - [Kafka](https://jessyt.tistory.com/category/Study/message-queue)
+#            - [Promethous, Grafana](https://jessyt.tistory.com/category/Develop/devops)
+#            - Docker
+#      - layout: left
+#          title: Etc
+#          description: | # this will include new lines to allow paragraphs
+#            - Confluence, Jira, Redmine, Yona
+#            - Slack
+#
+#  - title: Experience # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        title: FastView
+#        caption: 2021.03 - 재직중
+#        sub_title: 코틀린 백엔드 개발자
+#        quote: >
+#          공급사 이커머스 구성 및 운영 서비스
+#        description: | # this will include new lines to allow paragraphs
+#          - 관리자, 서비스 API 개발
+#          - 서비스 MSA 기반 아키텍처 설계
+#          - Batch && Kafka 아키텍처, CI/CD, 개발
+#          - Test Code 작성 ( && Jacoco )
+#          - 2021년 2분기 MVP 수상
+#
+#      - layout: left
+#          title: Newploy
+#          link: https://www.newploy.net/
+#          link_text: https://www.newploy.net/
+#          caption: 2020.07 - 2021.03
+#          sub_title: 개발자
+#          quote: >
+#            급여 업무 자동화 플랫폼
+#          description: | # this will include new lines to allow paragraphs
+#            - 플랫폼 서비스 자바 기반 프론트/백엔드 개발
+#            - 플랫폼 DB 설계 참여
+#            - Batch 아키텍처, CI/CD, 개발
+#            - 입금, 출금 상태 모니터링 개발 ( Customizing )
+#            - 테스트 코드 작성
+#
+#      - layout: left
+#          title: Ibizsoftware
+#          caption: 2017.04 - 2020.07
+#          sub_title: 개발자
+#          quote: >
+#            BlockChain Platform && SI
+#          description: | # this will include new lines to allow paragraphs
+#            - BlockChain Platform
+#              - web3j libaray 사용하여 DAPP 개발 ( Ethereum )
+#              - hyperledger-fabric DAPP 개발
+#              - hyperledger-fabric에 softhsm 분석
+#              - 서버 구성을 자동화한 MakeFile 개발
+#            - SI
+#              - 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발
+#
+#  - title: ETC
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      꾸준하게 블로그 작성을 하여 기술 향상 및 기술 공유에 힘쓰고 있습니다.
+#      - [에디블로그](https://jessyt.tistory.com/)
+#
+#      기존의 것을 그대로 사용하지 않고 분석하고 개선하려 힘쓰고 있습니다.
+#      - [Querydsl 복잡한 쿼리 Paging 처리 Support Class](https://jessyt.tistory.com/129)
+#      - [Spring Batch QuerydslPagingItemReader 개선](https://jessyt.tistory.com/128)
+#      - [JPA DirtyChecking Kotlin 스럽게 사용하기](https://jessyt.tistory.com/106)
+#      - [Querydsl Join Query Sort 구현해보기](https://jessyt.tistory.com/90)
+#      - 등등...
 
 # Footer
 footer_show_references: true
