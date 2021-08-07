@@ -49,7 +49,7 @@ github_username:  yongtaelim
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 백엔드 개발자입니다.
-  새로운 것에 대해 흥미를 느끼고 학습하는 것을 즐기고 있습니다. 자신에게 핑계대지 않기 위해 개인/그룹으로 스터디도 꾸준히 진행하며 <mark>끊임없이 학습</mark>하고 있습니다.
+  새로운 것에 대해 흥미를 느끼고 학습하는 것을 즐기고 있습니다. 자신에게 핑계대지 않기 위해 개인/그룹으로 스터디도 꾸준히 진행하며 <mark>끊임없이 학습</mark>하고 있습니다. [블로그](https://jessyt.tistory.com/category/Study)
 
   현재는 이커머스 서비스의 전반적인 기능, 관리자, 배치를 담당하고 있습니다.
   서비스를 탄탄하게 운영하는 포인트에 집중을 많이 하는 편입니다. 단편적인 예로 모니터링과 테스트 코드에 대해 매우 중요하게 생각하고 있습니다.
@@ -92,22 +92,71 @@ content:
 #        quote: >
 #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - a
-            - b
+            - Java, Kotlin
+            - Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA
+            - JPA, Querydsl
+            - Junit5, Mockito, Jacoco
+            - Gradle, Maven
+            - IntelliJ, Eclipse
+      - layout: left
+          title: DevOps
+          description: | # this will include new lines to allow paragraphs
+            - MySQL, MariaDB, MongoDB, Redis
+            - Jenkins
+            - Kafka
+            - Promethous, Grafana
+            - Docker
+      - layout: left
+          title: Etc
+          description: | # this will include new lines to allow paragraphs
+            - Confluence, Jira, Redmine, Yona
+            - Slack
 
-  - title: Education # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: FastView
+        caption: 2021.03 - 재직중
+        sub_title: 코틀린 백엔드 개발자
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          공급사 이커머스 구성 및 운영 서비스
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - 관리자, 서비스 API 개발
+          - 서비스 MSA 기반 아키텍처 설계
+          - Batch && Kafka 아키텍처, CI/CD, 개발
+          - Test Code 작성 ( && Jacoco )
+          - 2021년 2분기 MVP 수상
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+          title: Newploy
+          link: https://www.newploy.net/
+          link_text: https://www.newploy.net/
+          caption: 2020.07 - 2021.03
+          sub_title: 개발자
+          quote: >
+            급여 업무 자동화 플랫폼
+          description: | # this will include new lines to allow paragraphs
+            - 플랫폼 서비스 자바 기반 프론트/백엔드 개발
+            - 플랫폼 DB 설계 참여
+            - Batch 아키텍처, CI/CD, 개발
+            - 입금, 출금 상태 모니터링 개발 ( Customizing )
+            - 테스트 코드 작성
+
+      - layout: left
+          title: Ibizsoftware
+          caption: 2017.04 - 2020.07
+          sub_title: 개발자
+          quote: >
+            BlockChain Platform && SI
+          description: | # this will include new lines to allow paragraphs
+            - BlockChain Platform
+              - web3j libaray 사용하여 DAPP 개발 ( Ethereum )
+              - hyperledger-fabric DAPP 개발
+              - hyperledger-fabric에 softhsm 분석
+              - 서버 구성을 자동화한 MakeFile 개발
+            - SI
+              - 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발
 
   - title: A Little More About Me
     layout: text
