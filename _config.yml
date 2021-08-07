@@ -139,6 +139,17 @@ content:
           - SI
             - 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발
 
+      - layout: left
+        title: Seoul-Engineering
+        caption: 2014.04 - 2017.03
+        sub_title: C++ Builder 개발자
+        quote: >
+          현미경 장비와 연동하여 Panel을 분석하는 서비스 운영
+        description: | # this will include new lines to allow paragraphs
+          - 운영
+          - 출장
+          - 장비조립
+
   - title: ETC
     layout: text
     content: | # this will include new lines to allow paragraphs
