@@ -80,19 +80,19 @@ content:
             - Gradle, Maven
             - IntelliJ, Eclipse
       - layout: left
-          title: DevOps
-          description: | # this will include new lines to allow paragraphs
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
             - MySQL, MariaDB, MongoDB, Redis
             - Jenkins
             - [Kafka](https://jessyt.tistory.com/category/Study/message-queue)
             - [Promethous, Grafana](https://jessyt.tistory.com/category/Develop/devops)
             - Docker
-#      - layout: left
-#          title: Etc
-#          description: | # this will include new lines to allow paragraphs
-#            - Confluence, Jira, Redmine, Yona
-#            - Slack
-#
+      - layout: left
+        title: Etc
+        description: | # this will include new lines to allow paragraphs
+            - Confluence, Jira, Redmine, Yona
+            - Slack
+
 #  - title: Experience # Title for the section
 #    layout: list # Type of content section (list/text)
 #    content:
