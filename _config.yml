@@ -132,10 +132,10 @@ content:
           BlockChain Platform && SI
         description: | # this will include new lines to allow paragraphs
           - BlockChain Platform
-            - web3j libaray 사용하여 DAPP 개발 ( Ethereum )
-            - hyperledger-fabric DAPP 개발
+            - [hyperledger-fabric DAPP 개발](https://github.com/yongtaelim/hyperledger-fabric-project)
             - hyperledger-fabric에 softhsm 분석
-            - 서버 구성을 자동화한 MakeFile 개발
+            - [서버 구성을 자동화한 MakeFile 개발](https://github.com/yongtaelim/hyperledger-fabric-hsm)
+            - web3j libaray 사용하여 DAPP 개발 ( Ethereum )
           - SI
             - 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발
 
