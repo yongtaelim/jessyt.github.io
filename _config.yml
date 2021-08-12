@@ -108,13 +108,16 @@ content:
           Rest API 개발
           - Service: 회원 인증 / 상품 / 내정보
           - Admin: 주문 관리 / 회사 관리 / 공급사 관리
-          <br>
+
+
           Spring Batch 기반의 적립금/주문 상태 처리 서비스 구축
           - Kafka를 이용한 MSA 기반 배치 설계
           - Jenkins를 이용한 배포, Scheduler 생성
-          <br>
+
+
           TDD 기반으로 개발 진행
-          <br>
+
+
           2021년 2분기 MVP 수상
 
       - layout: left
