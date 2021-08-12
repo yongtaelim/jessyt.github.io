@@ -46,19 +46,20 @@ github_username:  yongtaelim
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.png
+# about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 백엔드 개발자입니다.
-  새로운 것에 대해 흥미를 느끼고 학습하는 것을 즐기고 있습니다. 자신에게 핑계대지 않기 위해 개인/그룹으로 스터디도 꾸준히 진행하며 <mark>끊임없이 학습</mark>하고 있습니다. [블로그](https://jessyt.tistory.com/category/Study)
+  Java, Kotlin 언어를 사용한 Spring Boot 프레임워크 기반으로 개발을 진행해왔습니다.
+  2번의 스타트업으로 서비스 아키텍트부터 개발, 운영까지 경험하였습니다.
 
   현재는 이커머스 서비스의 전반적인 기능, 관리자, 배치를 담당하고 있습니다.
   서비스를 탄탄하게 운영하는 포인트에 집중을 많이 하는 편입니다. 단편적인 예로 모니터링과 테스트 코드에 대해 매우 중요하게 생각하고 있습니다.
 
   협업에 대해서 매우 중요하게 생각하고 있습니다.
-  개인보단 팀 단위로 생각하고 학습한 내용을 공유하며 <mark>함께 성장하는 분위기</mark>를 만드려고 노력하고 있습니다.
+  개인보단 팀 단위로 생각하고 학습한 내용을 공유하며 <mark>함께 성장하는 분위기</mark>를 만드려고 노력하고 있습니다. 스터디를 진행 중이며 블로그를 작성하여 기술에 대해 공유하고 있습니다.
 
   모든 사람에게서는 배울 점이 있다고 생각합니다.
-  연차, 나이, 직군, 파트 모두 떠나서 배울 점이 있다고 생각합니다. 그리고 전 항상 부족하다고 생각합니다. <mark>늘 겸손하자</mark>가 저의 가치관입니다.
+  연차, 나이, 직군, 파트 모두 떠나서 배울 점이 있다고 생각합니다. <mark>늘 겸손하자</mark>가 저의 가치관입니다.
 
 content:
   - title: Skill # Title for the section
@@ -76,9 +77,9 @@ content:
             - Java, [Kotlin](https://jessyt.tistory.com/category/Study/kotlin)
             - Spring Boot, Spring MVC, [Spring Batch](https://jessyt.tistory.com/category/Develop/spring-batch), Spring Security, [Spring Data](https://jessyt.tistory.com/category/Develop/spring-data)
             - JPA, Querydsl
-            - Junit5, Mockito, Jacoco
+            - Junit5, Mockito
             - Gradle, Maven
-            - IntelliJ, Eclipse
+            - IntelliJ
       - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
@@ -90,7 +91,7 @@ content:
       - layout: left
         title: Etc
         description: | # this will include new lines to allow paragraphs
-            - Confluence, Jira, Redmine, Yona
+            - Confluence, Jira, RedMine, Yona
             - Slack
 
   - title: Experience # Title for the section
@@ -103,10 +104,14 @@ content:
         quote: >
           공급사 이커머스 구성 및 운영 서비스
         description: | # this will include new lines to allow paragraphs
-          - 관리자, 서비스 API 개발
+          - Rest API 개발
+            - Service: 회원 인증 / 상품 / 내정보
+            - Admin: 주문 관리 / 회사 관리 / 공급사 관리
           - 서비스 MSA 기반 아키텍처 설계
-          - Batch && Kafka 아키텍처, CI/CD, 개발
-          - Test Code 작성 ( && Jacoco )
+          - Spring Batch 기반의 적립금/주문 상태 처리 서비스 구축
+            - Kafka를 이용한 MSA 기반 배치 설계
+            - Jenkins를 이용한 배포, Scheduler 생성
+          - TDD 기반으로 개발 진행
           - 2021년 2분기 MVP 수상
 
       - layout: left
@@ -118,11 +123,15 @@ content:
         quote: >
           급여 업무 자동화 플랫폼
         description: | # this will include new lines to allow paragraphs
-          - 플랫폼 서비스 자바 기반 프론트/백엔드 개발
-          - 플랫폼 DB 설계 참여
-          - Batch 아키텍처, CI/CD, 개발
-          - 입금, 출금 상태 모니터링 개발
-          - 테스트 코드 작성
+          - Rest API 개발
+            - 사업장 관리 / 사업장 등록 프로세스 / 임직원 관리
+          - Spring Batch 기반 급여 출금/입금 처리 서비스 구축
+            - 입출금 서비스와 외부 연동 진행
+            - Jenkins를 이용한 배포, Scheduler 생성
+          - Monitoring 구축 및 운영
+            - Prometheous, Grafana 구축
+            - 입금/출금 상태 Monitoring
+          - TDD 기반으로 개발 진행
 
       - layout: left
         title: Ibizsoftware
@@ -133,11 +142,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           - BlockChain Platform
             - [hyperledger-fabric DAPP 개발](https://github.com/yongtaelim/hyperledger-fabric-project)
-            - hyperledger-fabric에 softhsm 분석
-            - [서버 구성을 자동화한 MakeFile 개발](https://github.com/yongtaelim/hyperledger-fabric-hsm)
-            - web3j libaray 사용하여 DAPP 개발 ( Ethereum )
+              - Fabric SDK 를 사용하여 BlockChain Install 프로세스 구현
+            - hyperledger-fabric에 softhsm 적용
+              - softhsm을 분석하여 노드에 환경 구축
+              - hyperledger-fabric에 softhsm 적용
+              - [서버 구성 자동화 환경 구축](https://github.com/yongtaelim/hyperledger-fabric-hsm)
           - SI
-            - 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발
+            - Spring Framework, Mysql, Oracle 환경에서의 개발
 
   - title: ETC
     layout: text
@@ -150,7 +161,6 @@ content:
       - [Spring Batch QuerydslPagingItemReader 개선](https://jessyt.tistory.com/128)
       - [JPA DirtyChecking Kotlin 스럽게 사용하기](https://jessyt.tistory.com/106)
       - [Querydsl Join Query Sort 구현해보기](https://jessyt.tistory.com/90)
-      - 등등...
 
 # Footer
 footer_show_references: true
