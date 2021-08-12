@@ -131,15 +131,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           Rest API 개발
           - 사업장 관리 / 사업장 등록 프로세스 / 임직원 관리
-          <br>
+
+
           Spring Batch 기반 급여 출금/입금 처리 서비스 구축
           - 입출금 서비스와 외부 연동 진행
           - Jenkins를 이용한 배포, Scheduler 생성
-          <br>
+
+
           Monitoring 구축 및 운영
           - Prometheous, Grafana 구축
           - 입금/출금 상태 Monitoring
-          <br>
+
+
           TDD 기반으로 개발 진행
 
       - layout: left
@@ -156,7 +159,8 @@ content:
             - softhsm을 분석하여 노드에 환경 구축
             - hyperledger-fabric에 softhsm 적용
             - [서버 구성 자동화 환경 구축](https://github.com/yongtaelim/hyperledger-fabric-hsm)
-          <br>
+
+
           SI
           - Spring Framework, Mysql, Oracle 환경에서의 개발
 
