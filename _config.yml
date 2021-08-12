@@ -105,15 +105,14 @@ content:
         quote: >
           공급사 이커머스 구성 및 운영 서비스
         description: | # this will include new lines to allow paragraphs
-          - Rest API 개발
-            - Service: 회원 인증 / 상품 / 내정보
-            - Admin: 주문 관리 / 회사 관리 / 공급사 관리
-          - 서비스 MSA 기반 아키텍처 설계
-          - Spring Batch 기반의 적립금/주문 상태 처리 서비스 구축
-            - Kafka를 이용한 MSA 기반 배치 설계
-            - Jenkins를 이용한 배포, Scheduler 생성
-          - TDD 기반으로 개발 진행
-          - 2021년 2분기 MVP 수상
+          Rest API 개발
+          - Service: 회원 인증 / 상품 / 내정보
+          - Admin: 주문 관리 / 회사 관리 / 공급사 관리
+          Spring Batch 기반의 적립금/주문 상태 처리 서비스 구축
+          - Kafka를 이용한 MSA 기반 배치 설계
+          - Jenkins를 이용한 배포, Scheduler 생성
+          TDD 기반으로 개발 진행
+          2021년 2분기 MVP 수상
 
       - layout: left
         title: Newploy
@@ -124,15 +123,15 @@ content:
         quote: >
           급여 업무 자동화 플랫폼
         description: | # this will include new lines to allow paragraphs
-          - Rest API 개발
-            - 사업장 관리 / 사업장 등록 프로세스 / 임직원 관리
-          - Spring Batch 기반 급여 출금/입금 처리 서비스 구축
-            - 입출금 서비스와 외부 연동 진행
-            - Jenkins를 이용한 배포, Scheduler 생성
-          - Monitoring 구축 및 운영
-            - Prometheous, Grafana 구축
-            - 입금/출금 상태 Monitoring
-          - TDD 기반으로 개발 진행
+          Rest API 개발
+          - 사업장 관리 / 사업장 등록 프로세스 / 임직원 관리
+          Spring Batch 기반 급여 출금/입금 처리 서비스 구축
+          - 입출금 서비스와 외부 연동 진행
+          - Jenkins를 이용한 배포, Scheduler 생성
+          Monitoring 구축 및 운영
+          - Prometheous, Grafana 구축
+          - 입금/출금 상태 Monitoring
+          TDD 기반으로 개발 진행
 
       - layout: left
         title: Ibizsoftware
@@ -141,15 +140,15 @@ content:
         quote: >
           BlockChain Platform && SI
         description: | # this will include new lines to allow paragraphs
-          - BlockChain Platform
-            - [hyperledger-fabric DAPP 개발](https://github.com/yongtaelim/hyperledger-fabric-project)
-              - Fabric SDK 를 사용하여 BlockChain Install 프로세스 구현
+          BlockChain Platform
+          - [hyperledger-fabric DAPP 개발](https://github.com/yongtaelim/hyperledger-fabric-project)
+            - Fabric SDK 를 사용하여 BlockChain Install 프로세스 구현
+          - hyperledger-fabric에 softhsm 적용
+            - softhsm을 분석하여 노드에 환경 구축
             - hyperledger-fabric에 softhsm 적용
-              - softhsm을 분석하여 노드에 환경 구축
-              - hyperledger-fabric에 softhsm 적용
-              - [서버 구성 자동화 환경 구축](https://github.com/yongtaelim/hyperledger-fabric-hsm)
-          - SI
-            - Spring Framework, Mysql, Oracle 환경에서의 개발
+            - [서버 구성 자동화 환경 구축](https://github.com/yongtaelim/hyperledger-fabric-hsm)
+          SI
+          - Spring Framework, Mysql, Oracle 환경에서의 개발
 
   - title: ETC
     layout: text
